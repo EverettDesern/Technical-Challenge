@@ -10,3 +10,7 @@ Under the CombineCSV_Output.pdf file, you will see a screenshot of the output fr
 Under the SQLite.py file, you will see my SQL query.
 
 Under the SQL_Query_Output.pdf file, you will see my SQL query output.
+
+
+
+If you have any questions, you can reach me at edesern@live.unc.edu
