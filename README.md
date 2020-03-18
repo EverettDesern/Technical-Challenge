@@ -7,9 +7,9 @@ Under the CombineCSV.java file, you will see my code for the coding portion of t
 
 Under the CombineCSV_Output.pdf file, you will see a screenshot of the output from CombineCSV.java.
 
-Under the SQLite.py file, you will see my SQL query.
+Under the SQL Query file, you will see my SQL query.
 
-Under the SQL_Query_Output.pdf file, you will see my SQL query output.
+Under the SQL output file, you will see my SQL query output.
 
 
 
