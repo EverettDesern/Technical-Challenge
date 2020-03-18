@@ -8,10 +8,10 @@ answer1 = """SELECT E.Employeeid, Sum(I.Total) FROM employees E, customers C, in
                 GROUP BY E.Employeeid
                 ORDER BY Sum(I.Total) DESC"""
 
-answer2 = """SELECT employees.Employeeid FROM employees
-                  LEFT JOIN customers
-                  ON employees.Employeeid = customers.SupportRepid
-                  WHERE customers.SupportRepid IS NULL"""
+answer2 = """SELECT E.Employeeid FROM employees E
+                  LEFT JOIN customers C
+                  ON E.Employeeid = C.SupportRepid
+                  WHERE C.SupportRepid IS NULL"""
 
 cursor.execute(answer1)
 
