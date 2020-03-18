@@ -1,0 +1,12 @@
+SELECT E.Employeeid as Employeeid, Sum(I.Total) as total FROM employees E, customers C, invoices I
+  WHERE E.Employeeid = C.SupportRepid
+    AND (C.Customerid = I.Customerid)
+  GROUP BY Employeeid
+             
+UNION
+             
+SELECT E.Employeeid as Employeeid, NULL as total FROM employees E
+  LEFT JOIN customers C
+    ON E.Employeeid = C.SupportRepid
+  WHERE C.SupportRepid IS NULL
+  ORDER BY total DESC
